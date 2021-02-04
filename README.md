@@ -11,8 +11,6 @@ Das ist das Blueprint Projekt für die Watermelon React Clients. Dieser Blueprin
 - DEV/PROD environments
 - Google Web Vital support
 
-**Letztes Update: 04.03.2021**
-
 # Config
 
 Das Blueprint Projekt bringt folgende Parameter mit, die konfiguriert werden können/müssen:
@@ -26,6 +24,10 @@ Das Blueprint Projekt bringt folgende Parameter mit, die konfiguriert werden kö
 | REACT_APP_SHOW_TEST       | Optionaler Parameter ob ein Test-Zeichen im Build sein soll. Um den Bool korrekt auszulesen diese Syntax nutzen: `JSON.parse(process.env.REACT_APP_PROMODX_SHOW_TEST!)` |
 
 # Versionen
+
+Nachfolgend ist eine Auflistung der Blueprint Versionen (gleichzeitig die Tags) und die damit kompatiblen Versions-Abhängigkeiten.
+
+## V 1.0
 
 Folgende Abhängigkeiten sind getestet und funktional:
 
