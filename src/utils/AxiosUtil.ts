@@ -15,7 +15,7 @@ export const useAxios = () => {
     const instance = axios.create({
       baseURL,
       headers: {
-        Authorization: initialized ? `Bearer ${keycloak.token}` : undefined,
+        Authorization: initialized ? `Bearer ${keycloak.token}` : "",
         "Content-Type": "application/json;charset=UTF-8",
       },
     });

@@ -27,6 +27,24 @@ Das Blueprint Projekt bringt folgende Parameter mit, die konfiguriert werden kö
 
 Nachfolgend ist eine Auflistung der Blueprint Versionen (gleichzeitig die Tags) und die damit kompatiblen Versions-Abhängigkeiten.
 
+## V 1.1
+
+Folgende Abhängigkeiten sind getestet und funktional:
+
+| Name     | Version |
+| -------- | ------- |
+| Keycloak | 13.0.1  |
+
+Dem Blueprint liegen folgende Versionen zugrunde:
+
+| Name             | Version |
+| ---------------- | ------- |
+| React            | 17.0.2  |
+| React Router     | 5.3.0   |
+| Keycloak-Adapter | 15.0.2  |
+| Typescript       | 14.1.3  |
+| Typescript       | 4.4.4   |
+
 ## V 1.0
 
 Folgende Abhängigkeiten sind getestet und funktional:
@@ -40,7 +58,6 @@ Dem Blueprint liegen folgende Versionen zugrunde:
 | Name             | Version |
 | ---------------- | ------- |
 | React            | 17.0.1  |
-| React DOM        | 5.2.0   |
+| React Router     | 5.2.0   |
 | Keycloak-Adapter | 12.0.2  |
-| Typescript       | 14.1.3  |
-| Typescript       | 14.1.3  |
+| Typescript       | 4.1.3   |
