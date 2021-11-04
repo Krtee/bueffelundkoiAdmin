@@ -1,7 +1,7 @@
 {
   "name": "pwa-client-blueprint",
   "version": "1.1.0",
-  "description": "The DevDuck GmbH blueprint for new react client apps with keycloak, sass and axios",
+  "description": "The DevDuck GmbH blueprint for new react client apps with Keycloak, sass and axios",
   "homepage": "https://www.devduck.de",
   "private": true,
   "dependencies": {
