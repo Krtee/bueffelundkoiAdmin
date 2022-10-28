@@ -11,6 +11,8 @@ Das ist das Blueprint Projekt für die React Clients. Dieser Blueprint hat folge
 - DEV/PROD environments
 - Google Web Vital support
 
+Um mit diesem client zu entwickeln benötigt es eine laufende Keycloak Instanz mit einem entsprechendem Realm, das dann in der .env hinterlegt werden muss.
+
 # Config
 
 Das Blueprint Projekt bringt folgende Parameter mit, die konfiguriert werden können/müssen:
