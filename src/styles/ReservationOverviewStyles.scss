@@ -1,0 +1,62 @@
+.dialog{
+&__wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap:20px;
+}
+&__header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    svg{
+        width: max-content;
+    }
+
+    
+}
+&__buttons{
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+}
+.table{
+    &__header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .add-button{
+            svg{
+                height: 48px;
+                width: 48px;
+            }
+        }
+    }
+    &__item{
+        &__warning{
+            background-color: tomato;
+        }
+        &__not-confirmed{
+            background-color: #bebebe;
+            animation-name: pending;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            .MuiTableCell-root{
+                color:#4e4e4e;
+                font-style: italic;
+            }
+            @keyframes pending {
+                0%   {background-color: #f5f5f5;}
+                50%  {background-color: #cecece;}
+                100%   {background-color: #f5f5f5;}
+
+              }
+        }
+    }
+}
+.table-number__chip__warning{
+    background-color: tomato;
+
+}
